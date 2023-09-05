@@ -1,0 +1,89 @@
+.maincontainer2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+
+.dev-container {
+  background-image: url("../images/proshow_bg.png");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 110vw 110vh;
+}
+.header1 {
+  font-family: "Chakra Petch";
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-top: 5vw;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.dev-heading {
+    font-family: "Chakra Petch";
+    color: #141414;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 5vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+
+.header2 {
+  font-family: "Chakra Petch";
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 12px;
+  letter-spacing: 0.34em;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.header3 {
+  font-family: "Chakra Petch";
+  color: #141414;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 12px;
+  letter-spacing: 0.34em;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 200%;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.card {
+  color: black;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .header1 {
+    font-size: 8vw;
+  }
+  .dev-heading{
+    font-size: 7vw;
+    line-height: 7vw;
+  }
+  .header2,
+  .header3 {
+    font-size: 5vw;
+    line-height: 200%;
+  }
+
+  .header3 {
+    font-size: 4vw;
+  }
+
+
+}
